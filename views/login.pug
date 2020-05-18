@@ -17,6 +17,7 @@ block content
         form(action=dialog method="get" onsubmit=onsubmit)
           input(type="hidden", name="app_id", value=appID)
           input(type="hidden", name="redirect_uri", value=redirectURI)
+          input(type="hidden", name="scope", value="openid,email,search")
           input(type="hidden", name="response_type", value="token")
           button(type="submit") Login with Workplace (Token)
     div(style="width: 250px; margin: 12px")
