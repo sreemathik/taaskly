@@ -28,7 +28,7 @@
     },
     "SESSION_SECRET": {
       "description": "A random string that is used for crypto purposes in the session.",
-      "generator": "random"
+      "value": "app-161982458477949"
     },
     "WEBHOOK_CALLBACK": {
       "description": "The callback url for webhooks.",
@@ -44,7 +44,7 @@
     },
     "MASTER_PASSWORD": {
       "description": "Master password that gates access to the entire site.",
-      "generator": "random"
+      "value": "161982458477949"
     }
   },
   "formation": {
