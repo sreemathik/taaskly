@@ -24,7 +24,7 @@
     },
     "ACCESS_TOKEN": {
       "description": "Fixed access token for custom integrations, unset for 3rd party Apps",
-      "required": false,
+      "required": false
     },
     "SESSION_SECRET": {
       "description": "A random string that is used for crypto purposes in the session.",
